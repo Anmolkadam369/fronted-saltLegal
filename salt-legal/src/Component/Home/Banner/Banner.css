@@ -1,0 +1,191 @@
+
+.banner-container {
+  position: relative;
+}
+
+.banner-image {
+  width: 97vw;
+  height: 700px;
+  margin: 0 auto;
+  top: 0;
+  background-image: url("../../../assets/bg10.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  position: relative; 
+}
+
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 97vw;
+  height: 100%;
+  background: rgb(25, 25, 31, 0.8);
+  background: linear-gradient(90deg, rgba(31, 31, 39, 0.46) 0%, rgba(37, 37, 46, 0.415) 36%, rgba(32, 32, 40, 0.309) 100%);
+}
+
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+
+  /* position: absolute;
+  top: 38%;
+  left: 40%; 
+  transform: translate(-50%, -50%);
+  text-align: left; 
+  color: white; */
+}
+
+.banner-text h2 {
+  font-size: 2.5rem;
+}
+
+.banner-text p {
+  font-size: 1.2rem;
+  
+  /* font-weight: 400; */
+ 
+}
+
+.div-banner-p{
+  font-size: 1rem;
+  font-weight: 500 !important;
+  text-align: center;
+  color: white;
+
+}
+
+
+
+input:focus {
+  outline: none;
+}
+
+.banner-search {
+  position: absolute;
+  bottom: 120px;
+  /* top: 40%; */
+  left: 50%;
+  /* transform: translateX(-50%); */
+  transform: translate(-50%, -50%);
+  display: flex;
+  /* align-items: flex-end;  */
+  justify-content: space-around !important;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 45px;
+  padding: 0.6rem;
+  width: 600px;
+  height: 70px;
+}
+
+
+.banner-search1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-search1 input {
+  height: 2rem;
+  width: calc(100% - 2rem);
+  padding: 1rem;
+  border: none;
+  border-radius: 45px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+.banner-search button {
+  width: 120px;
+  padding: 1rem;
+  border: none;
+  border-radius: 20px !important;
+  /* margin-left: 1rem; */
+  margin-right: 1rem;
+  background-color: #d63384 !important;
+  color: white;
+  margin-left: auto;
+  margin-top: 5px;
+
+}
+
+
+.search-icon {
+  display: flex;
+  align-items: left;
+  margin-left: 30px;
+  padding-left: 2px;
+  color: gray;
+
+}
+
+.download-div {
+  position: absolute;
+  bottom: -4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: row;
+  color: black;
+  background-color: white;
+  background-image: url("../../../assets/template/cardbg.jpg");
+  /* opacity: 0.7; */
+  box-shadow: 0 25px 50px -12px rgba(224, 224, 224, 0.25);
+  height: 150px;
+  width: 900px;
+  border: 1px solid #D0A144;
+  border-radius: 20px;
+  
+  /* background-color: #D0A144; */
+
+}
+
+.download-div-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* Change from space-around to center */
+  align-items: center;
+  width: 100%;
+  opacity: 0.9;
+}
+
+/* 
+.download-div-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%; 
+} */
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 20px;
+  /* align-items: center; */
+}
+
+.column h4 {
+  margin-bottom: 5px;
+
+}
+
+.column p {
+  margin-top: 0;
+ 
+  /* Remove any top margin */
+}
